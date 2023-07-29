@@ -68,8 +68,7 @@ local plugins = {
     dependencies = {"nvim-lua/plenary.nvim"},
     opts = {},
   },
-}
-{
+  {
     "nvim-treesitter/nvim-treesitter",
     opts = {
       ensure_installed = {
@@ -91,4 +90,5 @@ local plugins = {
       },
     },
   },
+}
 return plugins
