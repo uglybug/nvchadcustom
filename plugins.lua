@@ -62,5 +62,11 @@ local plugins = {
       require "custom.configs.lspconfig"
     end,
   },
+  {
+    "folke/todo-comments.nvim",
+    ft = {"python"},
+    dependencies = {"nvim-lua/plenary.nvim"},
+    opts = {},
+  },
 }
 return plugins
